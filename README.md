@@ -11,6 +11,7 @@ xgboost==1.4.2
 numpy==1.24.4
 thinc==8.3.6
 spacy==3.5.4
+en_core_web_sm==3.5.0
 interpret-core==0.6.5
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz#egg=en_core_web_sm
 
