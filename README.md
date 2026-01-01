@@ -15,4 +15,4 @@ en_core_web_sm==3.5.0
 interpret-core==0.6.5
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz#egg=en_core_web_sm
 
-To be fully uploaded on 1 Jan)
+To be fully uploaded on 2 Jan)
