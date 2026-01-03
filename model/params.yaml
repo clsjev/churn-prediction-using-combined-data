@@ -1,0 +1,13 @@
+batch_size: 16
+batch_size_test: 1000
+data_dir: ../data
+epochs: 5
+frac_relevant_keywords: 0.25
+lr: 0.001
+model_dir: ../model
+momentum: 0.9
+pos_weight: 10
+topn_relevant_keywords: 1000
+w_count: 0.2
+w_marg_contr: 0.3
+w_sim: 0.5
