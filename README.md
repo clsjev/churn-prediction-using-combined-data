@@ -6,7 +6,7 @@ The categorical and numerical data (3941 lines) is from Kaggle: E-Commerce Datas
 
 After preprocessing they are trained in a combined model, after which they separately predict and interpret the data.
 
-In /notebook another simple XGBoost model is uploaded for comparison.
+(In ../notebook another simple XGBoost model is uploaded for comparison.)
 
 The python scripts to prepare the data, train, evaluate, predict and interpret the model, are stored in ../scripts. 
 
