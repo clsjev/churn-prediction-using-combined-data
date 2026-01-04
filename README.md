@@ -4,7 +4,7 @@ This project uses the idea of "aws-samples churn-prediction-with-text-and-interp
 
 The categorical and numerical data (3941 lines) is from Kaggle: E-Commerce Dataset (https://www.kaggle.com/datasets/anaghapaul/e-commerce-dataset), combined with a synthetic text dataset (1184) created mainly using Gemini-2.5-flash.
 
-After preprocessing they are trained in a combined model, after which they separately predict and interpret the data.
+After preprocessing they are trained in a combined model, after which they separately predict and interpret the data. See the main notebook "test_churn_prediction".
 
 (In ../notebook another simple XGBoost model is uploaded for comparison.)
 
