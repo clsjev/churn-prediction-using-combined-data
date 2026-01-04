@@ -122,6 +122,7 @@ class ChurnDataset(Dataset):
 def run_preprocessing(use_existing=True):
     data_dir = Path(params['data_dir'])
     df = pd.read_csv(data_dir / "churn_dataset.csv")
+    df = df.drop_duplicates(subset=['chat_log'], keep='first')
 
     if not use_existing:
         pass
@@ -141,3 +142,4 @@ if __name__ == "__main__":
         test_size=args.test_size,
         random_state=args.random_state
     )
+
